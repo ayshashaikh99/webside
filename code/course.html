@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css>
+
+</head>
+<body>
+	<section  class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/clglogo.png"></a>
+			<div class="nav_links">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Courses</h1>
+	</section>
+	<section class="courses">
+		<h1>Courses We offers</h1>
+		<p>Here we mention the courses available in this Institute</p>
+		<div class="row">
+			<div class="courses-col">
+				<h1>MCA</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequatur sed, vero numquam velit quasi nam, ea voluptas quas voluptatum odio magni fugiat, repudiandae deleniti inventore impedit! Ducimus, blanditiis rerum!</p>
+			</div>    
+			<div class="courses-col">
+				<h1>MBA</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus ipsum quod labore corrupti alias doloremque commodi nostrum inventore magnam?</p>
+			 </div>   
+			<div class="courses-col">
+				<h1>MCOM</h1>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo architecto expedita veritatis pariatur, nemo minus harum vel voluptatum inventore.</p>
+			</div>
+		</div>
+	</section>
+	<section  class="facilities">
+		<h1>Facilities</h1>
+		<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, beatae?</p> -->
+
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/library.png">
+				<h3>World Class Library</h3>
+				<p>A library is a collection of materials, books or media that are easily accessible for use and not just for display purposes. It is responsible for housing updated information in order to meet the user's needs on a daily basis.</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/basketball.png">
+				<h3>Largest Play Ground</h3>
+				<p>A playground is an area used by Student to play in. They usually have equipment such as hallyboll, carrom and tennis for students to play on. </p>
+			</div>
+			<div class="facilities-col">carrom
+				<img src="images/cafeteria.png">
+				<h3>Tasty and Healthy Food</h3>
+				<p>A canteen is a store that sells food and drink at an institution like a college A canteen can also be a small container used to carry water to drink. If you're at summer camp, you can buy snacks at the canteen. This kind of canteen is a little shop</p>
+			</div>
+		</div>
+
+	</section>
+
+	
+
+	
+	
+
+
+	
+
+
+
+</section>
+
+
+	<section class="ft">
+		<h4>About Us</h4>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, accusamus beatae ducimus iusto nam vitae expedita explicabo qui ad possimus a necessitatibus molestias dicta et fugit omnis sit facere reprehenderit.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+
+		</div>
+		
+	</section>
+
+	
+
+
+
+
+
+	<!-- javaScript -->
+	<script>
+		var navLinks = document.getElementById(navLinks);
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+
+	</script>   
+</body>
+</html>
